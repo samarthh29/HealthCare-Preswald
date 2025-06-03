@@ -1,0 +1,20 @@
+[project]
+title = "Healthcare Dashboard"
+version = "0.1.0"
+port = 8501
+slug = "healthcare-dashboard"
+entrypoint = "healthcare_dashboard.py"
+
+[branding]
+name = "Healthcare Dashboard"
+logo = "images/healthcare.png"
+favicon = "images/healthcare.ico"
+primaryColor = "#0077B6"
+
+[data.healthcare_dataset]
+type = "csv"
+path = "data/healthcare_dataset.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
