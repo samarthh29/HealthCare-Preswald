@@ -38,7 +38,7 @@ This dashboard provides insights into patient data such as gender distribution, 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/healthcare-dashboard.git
+   git clone https://github.com/yourusername/HealthCare-Preswald.git
    cd healthcare-dashboard
 2. pip install -r requirements.txt
 3. python healthcare_dashboard.py
